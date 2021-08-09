@@ -21,7 +21,7 @@ public class ScoreController : MonoBehaviour
 
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
 
         _currentScore += 1;
